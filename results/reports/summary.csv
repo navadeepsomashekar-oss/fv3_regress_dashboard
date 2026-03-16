@@ -1,0 +1,7 @@
+dut,test,seed,status,run_dir
+alu,test_alu_random,1,PASS,results/runs/alu/test_alu_random/seed_0001
+alu,test_alu_random,2,PASS,results/runs/alu/test_alu_random/seed_0002
+alu,test_alu_random,3,PASS,results/runs/alu/test_alu_random/seed_0003
+alu,test_alu_smoke,1,PASS,results/runs/alu/test_alu_smoke/seed_0001
+alu,test_alu_smoke,2,PASS,results/runs/alu/test_alu_smoke/seed_0002
+alu,test_alu_smoke,3,PASS,results/runs/alu/test_alu_smoke/seed_0003

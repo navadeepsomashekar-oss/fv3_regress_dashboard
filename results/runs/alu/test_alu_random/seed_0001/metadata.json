@@ -1,0 +1,16 @@
+{
+  "dut": "alu",
+  "test": "tb.tests.test_alu_random",
+  "seed": 1,
+  "txns": 50,
+  "cmd": "make SIM=verilator TOPLEVEL=alu MODULE=tb.tests.test_alu_random SEED=1 TXNS=50",
+  "tool_versions": {
+    "verilator": "Verilator 5.036 2025-04-27 rev v5.036",
+    "python": "Python 3.12.3",
+    "pytest": "pytest 9.0.2",
+    "cocotb": "2.0.1",
+    "coverage": "7.13.4"
+  },
+  "timestamp_utc": "2026-03-16T18:12:40Z",
+  "checkpoint_sha256": "8e4398aa9a20f9f6dfadd1c01d1e6e128807003ac734390c3eb322707714e9f3  docs/checkpoints/checkpoint_before_regress.zip"
+}

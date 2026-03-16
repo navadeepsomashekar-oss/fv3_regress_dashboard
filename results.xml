@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1773684766" />
+    <testcase name="alu_random" classname="tb.tests.test_alu_random" file="/home/navadeep/fv3_regress_dashboard/tb/tests/test_alu_random.py" lineno="6" time="0.020602703094482422" sim_time_ns="4040.0" ratio_time="196090.7741801097" />
+  </testsuite>
+</testsuites>

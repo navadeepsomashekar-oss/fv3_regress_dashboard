@@ -1,0 +1,26 @@
+/home/navadeep/cocotb_kit/.venv/lib/python3.12/site-packages/cocotb_tools/makefiles/Makefile.deprecations:6: VERILATOR_TRACE is deprecated, see the "Simulator Support" section in the documentation.
+rm -f results.xml
+"make" -f Makefile results.xml
+make[1]: Entering directory '/home/navadeep/cocotb_kit'
+/home/navadeep/cocotb_kit/.venv/lib/python3.12/site-packages/cocotb_tools/makefiles/Makefile.deprecations:6: VERILATOR_TRACE is deprecated, see the "Simulator Support" section in the documentation.
+/home/navadeep/cocotb_kit/.venv/lib/python3.12/site-packages/cocotb_tools/makefiles/simulators/Makefile.verilator:69: Using MODULE is deprecated, please use COCOTB_TEST_MODULES instead.
+rm -f results.xml
+COCOTB_TEST_MODULES=tb.tests.test_alu_random COCOTB_TESTCASE= COCOTB_TEST_FILTER= COCOTB_TOPLEVEL=alu TOPLEVEL_LANG=verilog \
+         sim_build/Vtop --trace --trace    
+     -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:93   in _embed_init_python              Using Python 3.12.4 interpreter at /home/navadeep/cocotb_kit/.venv/bin/python3
+     -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:79   in gpi_print_registered_impl       VPI registered
+     0.00ns INFO     cocotb                             Running on Verilator version 5.036 2025-04-27
+     0.00ns INFO     cocotb                             Seeding Python random module with 1771725590
+     0.00ns INFO     cocotb                             Initialized cocotb v2.0.1 from /home/navadeep/cocotb_kit/.venv/lib/python3.12/site-packages/cocotb
+     0.00ns INFO     cocotb                             Running tests
+     0.00ns INFO     cocotb.regression                  running tb.tests.test_alu_random.alu_random (1/1)
+  4040.00ns INFO     cocotb.regression                  tb.tests.test_alu_random.alu_random passed
+  4040.00ns INFO     cocotb.regression                  *********************************************************************************************
+                                                        ** TEST                                 STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+                                                        *********************************************************************************************
+                                                        ** tb.tests.test_alu_random.alu_random   PASS        4040.00           0.01     275076.51  **
+                                                        *********************************************************************************************
+                                                        ** TESTS=1 PASS=1 FAIL=0 SKIP=0                      4040.00           0.02     253364.06  **
+                                                        *********************************************************************************************
+- :0: Verilog $finish
+make[1]: Leaving directory '/home/navadeep/cocotb_kit'
